@@ -6,12 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Quote Generator</title>
 </head>
+<style>
+    .wrapper{
+        height: 500px;
+        width: 500px;
+        border: 2px solid black;
+        margin: 100px 450px;
+        text-align: center;
+        display: flex;
+        background-color: gray;
+        border-radius: 10px;
+    }
+    .container{
+        margin-top: 150px;
+        padding: 10px;
+    }
+    body{
+        background-color: black;
+    }
+    .btn{
+    background-color: #ff004f;
+    color: wheat;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0px 0px 50px white;
+}
+</style>
 <body>
     <div class="wrapper">
         <div class="container">
             <p id="quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus repudiandae dicta minus, modi eveniet cumque ut necessitatibus magni incidunt quas magnam, molestiae consequatur nobis, officia voluptatum quae nam odio. Voluptate.</p>
             <h3 id="author">Lorem, ipsum</h3>
-            <button id="btn">Get Quote</button>
+            <button class="btn">Get Quote</button>
         </div>
     </div>
     <script src="script.js"></script>
